@@ -1,0 +1,11 @@
+:root {
+    --bs-primary-rgb: 36, 53, 63;
+}
+
+.box-shadow {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.form-control::placeholder {
+    color: gray;
+}

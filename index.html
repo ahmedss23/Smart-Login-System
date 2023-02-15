@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body class="bg-primary text-center p-5">
+    <div class="bg-primary w-50 m-auto p-5 box-shadow">
+        <h1 class="text-info fw-light display-5">Smart Login System</h1>
+        <input type="text" name="email" id="email" placeholder="Enter your email" class="form-control bg-transparent text-white mb-3">
+        <input type="password" name="password" id="password" placeholder="Enter your password" class="form-control bg-transparent text-white mb-3">
+        <div class="text-danger mb-2 d-none" id="alert"></div>
+        <div class="text-success mb-2 d-none" id="success"></div>
+        <button class="btn btn-outline-info form-control mb-3" id="signInBtn">Login</button>
+        <span class="text-white">Don't have an acoount ? <a href="/signup.html" class="text-white"><strong>Sign Up</strong></a></span>
+    </div>
+    <script src="js/checkUser.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
